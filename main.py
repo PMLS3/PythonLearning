@@ -1,3 +1,8 @@
 name = input('What is your name?')
+password = input('What is your password')
 
-print('Hello ' + name)
+passwordLength = len(password)
+
+stars = '*' * passwordLength
+
+print(f'stars', stars)
